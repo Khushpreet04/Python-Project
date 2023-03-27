@@ -28,17 +28,17 @@ def addRecords():
 
         if flag == False:
             
-            stu_name = input("Enter student name: ")
-            class_name = input("Enter class name: ")
-            subject1 = int(input("Enter subject Hindi : "))
-            subject2 = int(input("Enter subject English: "))
-            subject3 = int(input("Enter subject Maths: "))
-            subject4 = int(input("Enter subject Science: "))
-            subject5 = int(input("Enter subject Computer: "))
+            stu_name = input("Enter student name:: ")
+            class_name = input("Enter class name:: ")
+            subject1 = int(input("Enter subject Hindi :: "))
+            subject2 = int(input("Enter subject English:: "))
+            subject3 = int(input("Enter subject Maths:: "))
+            subject4 = int(input("Enter subject Science:: "))
+            subject5 = int(input("Enter subject Computer:: "))
             student_list.append([roll_no, stu_name, class_name, subject1, subject2, subject3, subject4, subject5])
             choice=input("Do you want to add more records [y/n] :: ")
         else:
-            print("Record already exist...");
+            print("Record already exist...............");
             os.system('pause')
             home()
     MainMenu()
